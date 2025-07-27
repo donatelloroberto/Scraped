@@ -1,0 +1,153 @@
+/* SAC Pro - Dark Theme */
+
+.sacpro { width: 100%; overflow: hidden; }
+
+	.sacpro-box { position: relative; float: left; box-sizing: border-box; width: 60%; min-width: 340px; margin: 20px 0; padding: 0; }
+
+		.sacpro-box-inner { 
+			height: 380px; min-height: 200px; overflow-y: auto; resize: vertical; background-color: #111; color: #aaa; border: 3px solid #333; 
+			scroll-behavior: smooth;
+
+			/* Firefox scrollbar */
+			scrollbar-color: #555 #333;
+			scrollbar-width: thin;
+			}
+
+			/* Webkit scrollbar */
+			.sacpro-box-inner::-webkit-scrollbar { width: 12px; }
+			.sacpro-box-inner::-webkit-scrollbar-thumb { background-color: #444; }
+			.sacpro-box-inner::-webkit-scrollbar-thumb:hover { background-color: #555; }
+			.sacpro-box-inner::-webkit-scrollbar-button,
+			.sacpro-box-inner::-webkit-scrollbar-corner,
+			.sacpro-box-inner::-webkit-resizer { background-color: #444; }
+			.sacpro-box-inner::-webkit-scrollbar-track,
+			.sacpro-box-inner::-webkit-scrollbar-track-piece { background-color: #333; }
+
+			.sacpro-error {
+				display: none; position: absolute; z-index: 99; left: 3px; right: 3px; top: 3px;
+				margin: 0; padding: 10px; line-height: 20px; font-size: 14px; 
+				background-color: #CC6666; color: #fff; text-shadow: none;
+				}
+			.sacpro-error::before {
+				content: '\02757'; display: inline-block; vertical-align: middle; margin: -3px 6px 0 0; 
+				line-height: 12px; font-size: 12px; text-shadow: none; 
+				}
+			.sacpro-latest-message { 
+				margin: 0; padding: 10px; line-height: 20px; font-size: 14px; 
+				color: #999; background-color: #333; 
+				}
+			.sacpro-latest-message::before { 
+				content: '\01f551'; display: inline-block; vertical-align: middle; margin: -3px 6px 0 0; 
+				line-height: 12px; font-size: 12px; text-shadow: none; 
+				}
+				.sacpro-latest-message-key { cursor: help; }
+				.sacpro-latest-message-val { font-style: italic; }
+
+			.sacpro-chats { margin: 10px 0; }
+
+				.sacpro-chat { margin: 0; padding: 5px 10px; line-height: 20px; font-size: 14px; }
+
+					.sacpro-new { animation-name: sacproFadeIn; animation-timing-function: ease; animation-iteration-count: 1; animation-fill-mode: forwards; animation-duration: 500ms; }
+
+					.sacpro-chats .sacpro-chat a { color: #ddd; border: 0; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 1px; box-shadow: none; }
+					
+					.sacpro-chats .sacpro-chat a:hover { color: #fff; border: 0; text-decoration: none; box-shadow: none; }
+
+					.sacpro-chat span { display: inline; vertical-align: baseline; }
+
+					.sacpro-chat .sacpro-chat-date-time { display: none; font-size: 10px; color: #777; }
+
+					.sacpro-chat .sacpro-chat-name-wrap { position: relative; }
+
+					.sacpro-chat .sacpro-chat-name { font-weight: bold; color: #ccc; cursor: help; }
+
+					.sacpro-chat .sacpro-chat-avatar {
+						display: inline-block; vertical-align: middle; width: 24px; height: 24px; margin: -3px 4px 0 0; padding: 0; 
+						border-radius: 50%; border: 0; box-shadow: none;
+						}
+					.sacpro-chat.sacpro-user-online .sacpro-chat-sep::before {
+						display: none; content: ''; position: absolute; top: 0; left: -5px; width: 5px; height: 5px; 
+						border-radius: 50%; border: 1px solid #00FF66; background-color: #00CC66;
+						}
+					.sacpro-chat .sacpro-chat-name-meta {
+						display: inline-block; vertical-align: middle; margin: -3px 3px 0 0; padding: 2px 3px; line-height: 10px; font-size: 10px; font-weight: normal; color: #fff;
+						background-color: #555; border: 1px solid #777; border-radius: 2px; cursor: help;
+						}
+					.sacpro-role-superadmin  .sacpro-chat-name-meta { background-color: rgba(204,102,  0,0.6); border-color: rgba(204,102,  0,0.7); }
+					.sacpro-role-admin       .sacpro-chat-name-meta { background-color: rgba(204,153,  0,0.6); border-color: rgba(204,153,  0,0.7); } 
+					.sacpro-role-editor      .sacpro-chat-name-meta { background-color: rgba(153, 51, 51,0.6); border-color: rgba(153, 51, 51,0.7); }
+					.sacpro-role-author      .sacpro-chat-name-meta { background-color: rgba(153,102,153,0.6); border-color: rgba(153,102,153,0.7); }
+					.sacpro-role-contributor .sacpro-chat-name-meta { background-color: rgba(51, 102,153,0.6); border-color: rgba(51, 102,153,0.7); }
+					.sacpro-role-subscriber  .sacpro-chat-name-meta { background-color: rgba(51, 153,153,0.6); border-color: rgba(51, 153,153,0.7); }
+					.sacpro-role-visitor     .sacpro-chat-name-meta { background-color: rgba(119,119,119,0.6); border-color: rgba(119,119,119,0.7); }
+
+	#sacpro .sacpro-form { float: left; box-sizing: border-box; width: 40%; min-width: 220px; margin: 20px 0; padding: 0 20px; }
+
+		#sacpro .sacpro-form abbr[title] { cursor: help !important; border-bottom: 1px dotted #555 !important; text-decoration: none !important; }
+
+		#sacpro .sacpro-form fieldset { margin: 0; padding: 0 0 10px 0; outline: none; border: 0; }
+
+		#sacpro .sacpro-form .sacpro-form-label {
+			display: block; box-sizing: border-box; margin: 0 0 5px 0; padding: 0; color: #777;
+			line-height: 20px; font-size: 14px; font-weight: normal; 
+			}
+		#sacpro .sacpro-form .sacpro-form-input {
+			display: block; box-sizing: border-box; width: 100%; margin: 0; padding: 10px; 
+			color: #999; border: 3px solid #333; background-color: #111; 
+			line-height: 20px; font-size: 14px; font-weight: normal; 
+			}
+		#sacpro .sacpro-form .sacpro-form-input:active,
+		#sacpro .sacpro-form .sacpro-form-input:focus {
+			color: #ccc; 
+			}
+		#sacpro .sacpro-form .sacpro-form-textarea {
+			display: block; box-sizing: border-box; width: 100%; height: 100px; min-height: 100px; margin: 0; padding: 10px; resize: vertical; 
+			color: #999; border: 3px solid #333; background-color: #111;
+			line-height: 20px; font-size: 14px; font-weight: normal; 
+			}
+		#sacpro .sacpro-form .sacpro-form-textarea:active,
+		#sacpro .sacpro-form .sacpro-form-textarea:focus {
+			color: #ccc;
+			}
+		#sacpro .sacpro-form .sacpro-form-submit-button {
+			margin: 0; padding: 10px 20px; box-shadow: none; 
+			color: #999; border: 0; background-color: #444; background: #444;
+			line-height: 14px; font-size: 14px; font-weight: normal;
+			}
+		#sacpro .sacpro-form .sacpro-form-submit-button:hover {
+			color: #ccc; background-color: #404040; background: #404040;
+			}
+		.sacpro-form-name-static {
+			display: inline-block; position: relative; top: -5px; margin: 0 0 -5px 2px; color: #999; cursor: help;
+			line-height: 14px; font-size: 14px; font-weight: bold;
+			}
+
+		.sacpro-form-submit { position: relative; }
+		.sacpro-count-chars { position: absolute; z-index: 0; top: -5px; right: 5px; font-size: 12px; }
+
+/* @ */
+
+.sacpro-chatbox-before,
+.sacpro-chatbox-after,
+.sacpro-chatform-before,
+.sacpro-chatform-after { margin: 15px 0; }
+
+/* @ */
+
+#sacpro.sacpro-classic-narrow .sacpro-box,
+#sacpro.sacpro-classic-narrow .sacpro-form { float: none; width: 100%; padding: 0 5px; }
+
+/* @ */
+
+.sacpro-form ::placeholder { color: #777; opacity: 1; }
+
+/* @ */
+
+@keyframes sacproFadeIn {
+	0% {
+		background-color: #555;
+	}
+	100% {
+		background-color: transparent;
+	}
+}

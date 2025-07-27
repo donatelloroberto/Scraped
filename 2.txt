@@ -1,0 +1,233 @@
+"2025-07-27T11:03:54.445Z ACTOR: Pulling Docker image of build 2JT0rc70s6uVCchLg from registry.
+2025-07-27T11:03:57.589Z ACTOR: Creating Docker container.
+2025-07-27T11:03:57.955Z ACTOR: Starting Docker container.
+2025-07-27T11:04:00.683Z INFO  System info {"apifyVersion":"3.2.5","apifyClientVersion":"2.9.5","crawleeVersion":"3.11.3","osType":"Linux","nodeVersion":"v20.17.0"}
+2025-07-27T11:04:11.745Z inputUrlhttps://nurgay.to/
+2025-07-27T11:04:11.749Z API Response: {
+2025-07-27T11:04:11.751Z   method: 'GET',
+2025-07-27T11:04:11.751Z   urlSupplier: 'https://nurgay.to/',
+2025-07-27T11:04:11.752Z   redirectedUrlSupplier: null,
+2025-07-27T11:04:11.752Z   pageSource: '<html lang="de"><head>\n' +
+2025-07-27T11:04:11.753Z     '<meta charset="UTF-8">\n' +
+2025-07-27T11:04:11.753Z     '<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">\n' +
+2025-07-27T11:04:11.754Z     '<link rel="profile" href="https://gmpg.org/xfn/11">\n' +
+2025-07-27T11:04:11.754Z     '<link rel="icon" href="\n' +
+2025-07-27T11:04:11.754Z     'https://nurgay.to/wp-content/uploads/2023/10/faviconV2.png">\n' +
+2025-07-27T11:04:11.754Z     '\n' +
+2025-07-27T11:04:11.755Z     '<!-- Meta social networks -->\n' +
+2025-07-27T11:04:11.755Z     '\n' +
+2025-07-27T11:04:11.755Z     '<!-- Temp Style -->\n' +
+2025-07-27T11:04:11.756Z     '<style>\n' +
+2025-07-27T11:04:11.756Z     '\t.post-thumbnail {\n' +
+2025-07-27T11:04:11.756Z     '\t\tpadding-bottom: 125.92592592593%;\n' +
+2025-07-27T11:04:11.757Z     '\t}\n' +
+2025-07-27T11:04:11.757Z     '\t.post-thumbnail .wpst-trailer,\n' +
+2025-07-27T11:04:11.757Z     '\t.post-thumbnail img {\n' +
+2025-07-27T11:04:11.758Z     '\t\tobject-fit: fill;\n' +
+2025-07-27T11:04:11.758Z     '\t}\n' +
+2025-07-27T11:04:11.758Z     '\n' +
+2025-07-27T11:04:11.759Z     '\t.video-debounce-bar {\n' +
+2025-07-27T11:04:11.759Z     '\t\tbackground: #3593FF!important;\n' +
+2025-07-27T11:04:11.759Z     '\t}\n' +
+2025-07-27T11:04:11.759Z     '\n' +
+2025-07-27T11:04:11.760Z     '\t\t\t\n' +
+2025-07-27T11:04:11.761Z     '\t\t\tbutton,\n' +
+2025-07-27T11:04:11.761Z     '\t\t.button,\n' +
+2025-07-27T11:04:11.761Z     '\t\tinput[type="button"],\n' +
+2025-07-27T11:04:11.761Z     '\t\tinput[type="reset"],\n' +
+2025-07-27T11:04:11.762Z     '\t\tinput[type="submit"],\n' +
+2025-07-27T11:04:11.762Z     '\t\t.label,\n' +
+2025-07-27T11:04:11.763Z     '\t\t.label:visited,\n' +
+2025-07-27T11:04:11.763Z     '\t\t.pagination ul li a,\n' +
+2025-07-27T11:04:11.763Z     '\t\t.widget_categories ul li a,\n' +
+2025-07-27T11:04:11.764Z     '\t\t.comment-reply-link,\n' +
+2025-07-27T11:04:11.764Z     '\t\ta.tag-cloud-link,\n' +
+2025-07-27T11:04:11.764Z     '\t\t.template-actors li a {\n' +
+2025-07-27T11:04:11.765Z     '\t\t\tbackground: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 70%); /* FF3.6-15 */\n' +
+2025-07-27T11:04:11.765Z     '\t\t\tbackground: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%); /* Chrome10-25,Safari5.1-6 */\n' +
+2025-07-27T11:04:11.765Z     '\t\t\tbackground: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n' +
+2025-07-27T11:04:11.766Z     "\t\t\tfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a62b2b2b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */\n" +
+2025-07-27T11:04:11.766Z     '\t\t\t-moz-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.766Z     '\t\t\t-webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.767Z     '\t\t\t-o-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.767Z     '\t\t\tbox-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.767Z     '\t\t}\n' +
+2025-07-27T11:04:11.768Z     '\t\tinput[type="text"],\n' +
+2025-07-27T11:04:11.768Z     '\t\tinput[type="email"],\n' +
+2025-07-27T11:04:11.768Z     '\t\tinput[type="url"],\n' +
+2025-07-27T11:04:11.769Z     '\t\tinput[type="password"],\n' +
+2025-07-27T11:04:11.769Z     '\t\tinput[type="search"],\n' +
+2025-07-27T11:04:11.769Z     '\t\tinput[type="number"],\n' +
+2025-07-27T11:04:11.770Z     '\t\tinput[type="tel"],\n' +
+2025-07-27T11:04:11.770Z     '\t\tinput[type="range"],\n' +
+2025-07-27T11:04:11.770Z     '\t\tinput[type="date"],\n' +
+2025-07-27T11:04:11.771Z     '\t\tinput[type="month"],\n' +
+2025-07-27T11:04:11.771Z     '\t\tinput[type="week"],\n' +
+2025-07-27T11:04:11.771Z     '\t\tinput[type="time"],\n' +
+2025-07-27T11:04:11.772Z     '\t\tinput[type="datetime"],\n' +
+2025-07-27T11:04:11.772Z     '\t\tinput[type="datetime-local"],\n' +
+2025-07-27T11:04:11.772Z     '\t\tinput[type="color"],\n' +
+2025-07-27T11:04:11.772Z     '\t\tselect,\n' +
+2025-07-27T11:04:11.773Z     '\t\ttextarea,\n' +
+2025-07-27T11:04:11.773Z     '\t\t.wp-editor-container {\n' +
+2025-07-27T11:04:11.773Z     '\t\t\t-moz-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 5px black inset;\n' +
+2025-07-27T11:04:11.774Z     '\t\t\t-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 5px black inset;\n' +
+2025-07-27T11:04:11.774Z     '\t\t\t-o-box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 5px black inset;\n' +
+2025-07-27T11:04:11.774Z     '\t\t\tbox-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 5px black inset;\n' +
+2025-07-27T11:04:11.774Z     '\t\t}\n' +
+2025-07-27T11:04:11.775Z     '\t\t#site-navigation {\n' +
+2025-07-27T11:04:11.775Z     '\t\t\tbackground: #222222;\n' +
+2025-07-27T11:04:11.780Z     '\t\t\tbackground: -moz-linear-gradient(top, #222222 0%, #333333 50%, #222222 51%, #151515 100%);\n' +
+2025-07-27T11:04:11.781Z     '\t\t\tbackground: -webkit-linear-gradient(top, #222222 0%,#333333 50%,#222222 51%,#151515 100%);\n' +
+2025-07-27T11:04:11.781Z     '\t\t\tbackground: linear-gradient(to bottom, #222222 0%,#333333 50%,#222222 51%,#151515 100%);\n' +
+2025-07-27T11:04:11.782Z     "\t\t\tfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#151515',GradientType=0 );\n" +
+2025-07-27T11:04:11.782Z     '\t\t\t-moz-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.782Z     '\t\t\t-webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.783Z     '\t\t\t-o-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.783Z     '\t\t\tbox-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.12);\n' +
+2025-07-27T11:04:11.783Z     '\t\t}\n' +
+2025-07-27T11:04:11.783Z     '\t\t#site-navigation > ul > li:hover > a,\n' +
+2025-07-27T11:04:11.784Z     '\t\t#site-navigation ul li.current-menu-item a {\n' +
+2025-07-27T11:04:11.784Z     '\t\t\tbackground: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 70%);\n' +
+2025-07-27T11:04:11.785Z     '\t\t\tbackground: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%);\n' +
+2025-07-27T11:04:11.785Z     '\t\t\tbackground: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%);\n' +
+2025-07-27T11:04:11.785Z     "\t\t\tfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a62b2b2b', endColorstr='#00000000',GradientType=0 );\n" +
+2025-07-27T11:04:11.786Z     '\t\t\t-moz-box-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.786Z     '\t\t\t-webkit-box-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.786Z     '\t\t\t-o-box-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.787Z     '\t\t\tbox-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.787Z     '\t\t\tfilter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=2);\n' +
+2025-07-27T11:04:11.787Z     '\t\t}\n' +
+2025-07-27T11:04:11.788Z     '\t\t.rating-bar,\n' +
+2025-07-27T11:04:11.788Z     '\t\t.categories-list .thumb-block .entry-header,\n' +
+2025-07-27T11:04:11.788Z     '\t\t.actors-list .thumb-block .entry-header,\n' +
+2025-07-27T11:04:11.789Z     '\t\t#filters .filters-select,\n' +
+2025-07-27T11:04:11.789Z     '\t\t#filters .filters-options {\n' +
+2025-07-27T11:04:11.789Z     '\t\t\tbackground: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 70%); /* FF3.6-15 */\n' +
+2025-07-27T11:04:11.790Z     '\t\t\tbackground: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%); /* Chrome10-25,Safari5.1-6 */\n' +
+2025-07-27T11:04:11.790Z     '\t\t\tbackground: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n' +
+2025-07-27T11:04:11.790Z     '\t\t\t-moz-box-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.791Z     '\t\t\t-webkit-box-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.791Z     '\t\t\t-o-box-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.791Z     '\t\t\tbox-shadow: inset 0px 0px 2px 0px #000000;\n' +
+2025-07-27T11:04:11.792Z     '\t\t\tfilter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=2);\n' +
+2025-07-27T11:04:11.792Z     '\t\t}\n' +
+2025-07-27T11:04:11.792Z     '\t\t.breadcrumbs-area {\n' +
+2025-07-27T11:04:11.792Z     '\t\t\tbackground: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 70%); /* FF3.6-15 */\n' +
+2025-07-27T11:04:11.793Z     '\t\t\tbackground: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%); /* Chrome10-25,Safari5.1-6 */\n' +
+2025-07-27T11:04:11.793Z     '\t\t\tbackground: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n' +
+2025-07-27T11:04:11.793Z     '\t\t}\n' +
+2025-07-27T11:04:11.794Z     '\t\n' +
+2025-07-27T11:04:11.794Z     '\t.site-title a {\n' +
+2025-07-27T11:04:11.794Z     '\t\tfont-family: Open Sans;\n' +
+2025-07-27T11:04:11.795Z     '\t\tfont-size: 36px;\n' +
+2025-07-27T11:04:11.795Z     '\t}\n' +
+2025-07-27T11:04:11.795Z     '\t.site-branding .logo img {\n' +
+2025-07-27T11:04:11.795Z     '\t\tmax-width: 350px;\n' +
+2025-07-27T11:04:11.796Z     '\t\tmax-height: 120px;\n' +
+2025-07-27T11:04:11.796Z     '\t\tmargin-top: 0px;\n' +
+2025-07-27T11:04:11.796Z     '\t\tmargin-left: 0px;\n' +
+2025-07-27T11:04:11.796Z     '\t}\n' +
+2025-07-27T11:04:11.797Z     '\ta,\n' +
+2025-07-27T11:04:11.797Z     '\t.site-title a i,\n' +
+2025-07-27T11:04:11.797Z     '\t.thumb-block:hover .rating-bar i,\n' +
+2025-07-27T11:04:11.797Z     '\t.categories-list .thumb-block:hover .entry-header .cat-title:before,\n' +
+2025-07-27T11:04:11.798Z     '\t.required,\n' +
+2025-07-27T11:04:11.798Z     '\t.like #more:hover i,\n' +
+2025-07-27T11:04:11.798Z     '\t.dislike #less:hover i,\n' +
+2025-07-27T11:04:11.799Z     '\t.top-bar i:hover,\n' +
+2025-07-27T11:04:11.799Z     '\t.main-navigation .menu-item-has-children > a:after,\n' +
+2025-07-27T11:04:11.799Z     '\t.menu-toggle i,\n' +
+2025-07-27T11:04:11.800Z     '\t.main-navigation.toggled li:hover > a,\n' +
+2025-07-27T11:04:11.800Z     '\t.main-navigation.toggled li.focus > a,\n' +
+2025-07-27T11:04:11.800Z     '\t.main-navigation.toggled li.current_page_item > a,\n' +
+2025-07-27T11:04:11.800Z     '\t.main-navigation.toggled li.current-menu-item > a,\n' +
+2025-07-27T11:04:11.801Z     '\t#filters .filters-select:after,\n' +
+2025-07-27T11:04:11.801Z     '\t.morelink i,\n' +
+2025-07-27T11:04:11.801Z     '\t.top-bar .membership a i,\n' +
+2025-07-27T11:04:11.801Z     '\t.thumb-block:hover .photos-count i {\n' +
+2025-07-27T11:04:11.802Z     '\t\tcolor: #3593FF;\n' +
+2025-07-27T11:04:11.802Z     '\t}\n' +
+2025-07-27T11:04:11.802Z     '\tbutton,\n' +
+2025-07-27T11:04:11.803Z     '\t.button,\n' +
+2025-07-27T11:04:11.803Z     '\tinput[type="button"],\n' +
+2025-07-27T11:04:11.803Z     '\tinput[type="reset"],\n' +
+2025-07-27T11:04:11.804Z     '\tinput[type="submit"],\n' +
+2025-07-27T11:04:11.804Z     '\t.label,\n' +
+2025-07-27T11:04:11.804Z     '\t.pagination ul li a.current,\n' +
+2025-07-27T11:04:11.805Z     '\t.pagination ul li a:hover,\n' +
+2025-07-27T11:04:11.805Z     '\tbody #filters .label.secondary.active,\n' +
+2025-07-27T11:04:11.805Z     '\t.label.secondary:hover,\n' +
+2025-07-27T11:04:11.806Z     '\t.main-navigation li:hover > a,\n' +
+2025-07-27T11:04:11.806Z     '\t.main-navigation li.focus > a,\n' +
+2025-07-27T11:04:11.806Z     '\t.main-navigation li.current_page_item > a,\n' +
+2025-07-27T11:04:11.807Z     '\t.main-navigation li.current-menu-item > a,\n' +
+2025-07-27T11:04:11.807Z     '\t.widget_categories ul li a:hover,\n' +
+2025-07-27T11:04:11.807Z     '\t.comment-reply-link,\n' +
+2025-07-27T11:04:11.807Z     '\ta.tag-cloud-link:hover,\n' +
+2025-07-27T11:04:11.808Z     '\t.template-actors li a:hover {\n' +
+2025-07-27T11:04:11.808Z     '\t\tborder-color: #3593FF!important;\n' +
+2025-07-27T11:04:11.814Z     '\t\tbackground-color: #3593FF!important;\n' +
+2025-07-27T11:04:11.814Z     '\t}\n' +
+2025-07-27T11:04:11.814Z     '\t.rating-bar-meter,\n' +
+2025-07-27T11:04:11.815Z     '\t.vjs-play-progress,\n' +
+2025-07-27T11:04:11.815Z     '\t#filters .filters-options span:hover,\n' +
+2025-07-27T11:04:11.815Z     '\t.bx-wrapper .bx-controls-direction a,\n' +
+2025-07-27T11:04:11.816Z     '\t.top-bar .social-share a:hover,\n' +
+2025-07-27T11:04:11.816Z     '\t.thumb-block:hover span.hd-video,\n' +
+2025-07-27T11:04:11.816Z     '\t.featured-carousel .slide a:hover span.hd-video,\n' +
+2025-07-27T11:04:11.816Z     '\t.appContainer .ctaButton {\n' +
+2025-07-27T11:04:11.817Z     '\t\tbackground-color: #3593FF!important;\n' +
+2025-07-27T11:04:11.817Z     '\t}\n' +
+2025-07-27T11:04:11.817Z     '\t#video-tabs button.tab-link.active,\n' +
+2025-07-27T11:04:11.818Z     '\t.title-block,\n' +
+2025-07-27T11:04:11.818Z     '\t.widget-title,\n' +
+2025-07-27T11:04:11.818Z     '\t.page-title,\n' +
+2025-07-27T11:04:11.819Z     '\t.page .entry-title,\n' +
+2025-07-27T11:04:11.819Z     '\t.comments-title,\n' +
+2025-07-27T11:04:11.819Z     '\t.comment-reply-title,\n' +
+2025-07-27T11:04:11.819Z     '\t.morelink:hover {\n' +
+2025-07-27T11:04:11.820Z     '\t\tborder-color: #3593FF!important;\n' +
+2025-07-27T11:04:11.820Z     '\t}\n' +
+2025-07-27T11:04:11.825Z     '\n' +
+2025-07-27T11:04:11.826Z     '\t/* Small desktops ----------- */\n' +
+2025-07-27T11:04:11.826Z     '\t@media only screen  and (min-width : 64.001em) and (max-width : 84em) {\n' +
+2025-07-27T11:04:11.827Z     '\t\t#main .thumb-block {\n' +
+2025-07-27T11:04:11.827Z     '\t\t\twidth: 25%!important;\n' +
+2025-07-27T11:04:11.827Z     '\t\t}\n' +
+2025-07-27T11:04:11.828Z     '\t}\n' +
+2025-07-27T11:04:11.828Z     '\n' +
+2025-07-27T11:04:11.828Z     '\t/* Desktops and laptops ----------- */\n' +
+2025-07-27T11:04:11.829Z     '\t@media only screen  and (min-width : 84.001em) {\n' +
+2025-07-27T11:04:11.829Z     '\t\t#main .thumb-block {\n' +
+2025-07-27T11:04:11.829Z     '\t\t\twidth: 25%!important;\n' +
+2025-07-27T11:04:11.830Z     '\t\t}\n' +
+2025-07-27T11:04:11.830Z     '\t}\n' +
+2025-07-27T11:04:11.830Z     '\n' +
+2025-07-27T11:04:11.831Z     '</style>\n' +
+2025-07-27T11:04:11.831Z     '\n' +
+2025-07-27T11:04:11.831Z     '<!-- Google Analytics -->\n' +
+2025-07-27T11:04:11.832Z     '\n' +
+2025-07-27T11:04:11.832Z     '<!-- Meta Verification -->\n' +
+2025-07-27T11:04:11.832Z     '\n' +
+2025-07-27T11:04:11.833Z     '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">\n' +
+2025-07-27T11:04:11.833Z     '\t<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>\n' +
+2025-07-27T11:04:11.833Z     '\t\n' +
+2025-07-27T11:04:11.833Z     '\t<!-- This site is optimized with the Yoast SEO Premium plugin v25.3 (Yoast SEO v25.5) - https://yoast.com/wordpress/plugins/seo/ -->\n' +
+2025-07-27T11:04:11.834Z     '\t<title>NurGAY.to</title><link rel="preload" data-rocket-preload="" as="image" href="https://nurgay.to/wp-content/uploads/2025/07/ExternalLink_6trg1t6mb1iw.jpg" fetchpriority="high">\n' +
+2025-07-27T11:04:11.834Z     '\t<meta name="description" content="Wir bieten dir über 4000 kostenlose Schwulen-Porno-Streams und Gay-Full-Movie-Downloads. Jetzt sofort komplette Gay-Schwulen-Pornofilme streamen oder direkt herunterladen!">\n' +
+2025-07-27T11:04:11.834Z     '\t<link rel="canonical" href="https://nurgay.to/">\n' +
+2025-07-27T11:04:11.834Z     '\t<link rel="next" href="https://nurgay.to/page/2/">\n' +
+2025-07-27T11:04:11.835Z     '\t<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://nurgay.to/","url":"https://nurgay.to/","name":"NurGAY.to","isPartOf":{"@id":"https://nurgay.to/#website"},"about":{"@id":"https://nurgay.to/#/schema/person/cebe9b71605f62bddb2abbc2098e6825"},"description":"Wir bieten dir über 4000 kostenlose Schwulen-Porno-Streams und Gay-Full-Movie-Downloads. Jetzt sofort komplette Gay-Schwulen-Pornofilme streamen oder direkt herunterladen!","breadcrumb":{"@id":"https://nurgay.to/#breadcrumb"},"inLanguage":"de"},{"@type":"BreadcrumbList","@id":"https://nurgay.to/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite"}]},{"@type":"WebSite","@id":"https://nurgay.to/#website","url":"https://nurgay.to/","name":"NurGAY.to","description":"NurGay meets GayPower","publisher":{"@id":"https://nurgay.to/#/schema/person/cebe9b71605f62bddb2abbc2098e6825"},"potentialAction":[{"@type":"... [line-too-long]
+2025-07-27T11:04:11.835Z     '\t<!-- / Yoast SEO Premium plugin. -->\n' +
+2025-07-27T11:04:11.835Z     '\n' +
+2025-07-27T11:04:11.836Z     '\n' +
+2025-07-27T11:04:11.836Z     '<link rel="dns-prefetch" href="//www.googletagmanager.com">\n' +
+2025-07-27T11:04:11.836Z     '\n' +
+2025-07-27T11:04:11.837Z     '<link rel="alternate" type="application/rss+xml" title="NurGAY.to » Feed" href="https://nurgay.to/feed/">\n' +
+2025-07-27T11:04:11.837Z     '<link rel="alternate" type="application/rss+xml" title="NurGAY.to » Kommentar-Feed" href="https://nurgay.to/comments/feed/">\n' +
+2025-07-27T11:04:11.837Z     '<script type="text/javascript">\n' +
+2025-07-27T11:04:11.838Z     '/* <![CDATA[ */\n' +
+2025-07-27T11:04:11.838Z     'window._wpemojiSettings = '... 499506 more characters
+2025-07-27T11:04:11.839Z }
+"

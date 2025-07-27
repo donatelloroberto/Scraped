@@ -1,0 +1,11 @@
+/* SAC Pro - Emoji Picker */
+
+#sacpro .sacpro-form .sacpro-form-textarea-wrap { position: relative; }
+
+#sacpro .sacpro-form .sacpro-emoji-picker-button { position: absolute; top: 5px; right: 5px; line-height: 20px; font-size: 20px; cursor: pointer; }
+			
+#sacpro .sacpro-form .sacpro-emoji-picker { display: none; box-sizing: border-box; z-index: 99; width: 100%; height: auto; overflow-y: auto; padding: 5px; border: 1px solid #d1d1d1; background-color: #fff; }
+
+#sacpro .sacpro-form .sacpro-emoji-picker-wrap { max-height: 100%; }
+
+#sacpro .sacpro-form .sacpro-emoji { display: inline-block; width: 20px; height: 20px; margin: 2px; line-height: 1; font-size: 20px; text-align: center; cursor: pointer; }
